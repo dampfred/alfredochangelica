@@ -58,12 +58,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #000;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    color: #000;
+    /*background-color: #18bc9c;*/
 }
 
 hr.star-primary {
@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #000;
+    background: #18bc9c url("../img/wallpaper.jpg");
 }
 
 header .container {
@@ -100,7 +100,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -115,11 +115,18 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;
+        letter-spacing: 30px;
+    }
+
+    header .intro-text .name .and {
+        font-size: 0.5em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 2em;
+        letter-spacing: 30px;
+        text-transform: uppercase;
     }
 }
 
@@ -150,7 +157,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .navbar a:focus {
@@ -159,6 +166,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    font-size: 0.7em;
 }
 
 .navbar .navbar-nav li a:focus {
