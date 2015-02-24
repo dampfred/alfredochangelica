@@ -38,11 +38,11 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 30px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 200px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 3px;
     text-align: center;
 }
 
@@ -52,27 +52,29 @@ hr.star-primary:after {
     display: inline-block;
     position: relative;
     top: -.8em;
-    padding: 0 .25em;
+    padding: 0 .5em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 hr.star-light {
-    border-color: #000;
+    border-color: #FFF;
 }
 
 hr.star-light:after {
-    color: #000;
-    /*background-color: #18bc9c;*/
+    color: #FFF;
+    background-color: #004040;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    /*border-color: #2c3e50;*/
+    border-color: #004040;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
+    /*color: #2c3e50;*/
+    color: #004040;
+    background-color: #fffff9;
 }
 
 .img-centered {
@@ -82,7 +84,10 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #000;
-    background: #18bc9c url("../img/wallpaper.jpg");
+    background: #FFF url("../img/wallpaper.jpg");
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
 }
 
 header .container {
@@ -95,17 +100,35 @@ header img {
     margin: 0 auto 20px;
 }
 
+header .intro-text {
+    color: #004040;
+    background: #fffff9;
+    border: 10px;
+    border-style: solid;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    border-radius: 10px;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 300;
+    padding-bottom: 10px;
+    letter-spacing: 30px;
+}
+
+header .intro-text .name .and {
+    font-size: 0.5em;
 }
 
 header .intro-text .skills {
+    display: block;
     font-size: 1.25em;
     font-weight: 300;
+    padding-top: 30px;
 }
 
 @media(min-width:768px) {
@@ -116,7 +139,6 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 3em;
-        letter-spacing: 30px;
     }
 
     header .intro-text .name .and {
@@ -132,14 +154,16 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 30px 0;
+        letter-spacing: 10px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 2.5em;
+
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -151,6 +175,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        letter-spacing: 5px;
     }
 }
 
@@ -166,7 +191,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -176,6 +201,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #004040;
 }
 
 section {
@@ -184,12 +210,96 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+    letter-spacing: 15px;
+    color: #004040;
+}
+
+section#den-stora-dagen {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background: #FFF url("../img/julita-small.jpg");
+}
+
+section#den-stora-dagen .row {
+    background: #FFF;
+    border: 10px;
+    border-style: solid;
+    border-color: #004040;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+    float: right;
+    border-radius: 5px;
+}
+
+section#den-stora-dagen p {
+    margin-top: 40px;
+    text-align: left;
+}
+
+section#hitta-hit {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background: #FFF url("../img/map.png");
+}
+
+section#hitta-hit .row {
+    background: #FFF;
+    border: 10px;
+    border-style: solid;
+    border-color: #004040;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+    float: left;
+    border-radius: 5px;
+}
+
+section#hitta-hit p {
+    margin-top: 40px;
+    text-align: left;
+}
+
+section#festen {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background: #FFF url("../img/party.jpg");
+}
+
+section#festen .row {
+    background: #FFF;
+    border: 10px;
+    border-style: solid;
+    border-color: #004040;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+    float: right;
+    border-radius: 5px;
+}
+
+section#festen p {
+    margin-top: 40px;
+    text-align: left;
 }
 
 section.success {
     color: #fff;
     background: #18bc9c;
+    border-width: 0px 0px 20px 0px;
+    border-color: #534872;
+    border-style: solid;
 }
 
 @media(max-width:767px) {
