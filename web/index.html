@@ -104,7 +104,7 @@
 
     <!-- Den stora dagen Section -->
     <section id="den-stora-dagen">
-        <div class="container">
+        <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Den stora dagen</h2>
@@ -182,7 +182,7 @@
 
     <!-- Hitta hit Section -->
     <section class="success" id="hitta-hit">
-        <div class="container">
+        <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Hitta hit</h2>
@@ -210,7 +210,7 @@
 
     <!-- Festen Section -->
     <section id="festen">
-        <div class="container">
+        <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Festen</h2>
@@ -268,24 +268,12 @@
 
     <!-- Sova över Section -->
     <section class="success" id="sova-over">
-        <div class="container">
+        <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Sova över</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <hr class="star-primary">
+                    <p>Här är info om att sova över.</p>
                 </div>
             </div>
         </div>
@@ -293,54 +281,12 @@
 
     <!-- Svenhippa Section -->
     <section id="svenhippa">
-        <div class="container">
+        <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Möhippa och svensexa</h2>
+                    <h2>Svenhippor</h2>
                     <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
+                    <p>Här är info om att vi vill hoppa fallskärm.</p>
                 </div>
             </div>
         </div>
@@ -348,24 +294,12 @@
 
     <!-- Presenter Section -->
     <section class="success" id="presenter">
-        <div class="container">
+        <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Presenter</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <hr class="star-primary">
+                    <p>Här är info om hur vi tänker om presenter.</p>
                 </div>
             </div>
         </div>
@@ -373,54 +307,12 @@
 
     <!-- O.S.A. Section -->
     <section id="osa">
-        <div class="container">
+        <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>O.S.A.</h2>
                     <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
+                    <p>Alltså. Man måste faktiskt OSA. Senast den 18 april.</p>
                 </div>
             </div>
         </div>
@@ -428,24 +320,11 @@
 
     <!-- FAQ Section -->
     <section class="success" id="faq">
-        <div class="container">
+        <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>FAQ</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <hr class="star-primary">
                 </div>
             </div>
         </div>

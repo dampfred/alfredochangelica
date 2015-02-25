@@ -84,7 +84,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #000;
-    background: #FFF url("../img/wallpaper.jpg");
+    background: 
+    linear-gradient(
+        rgba(217, 255, 243, 0.2), 
+        rgba(217, 255, 243, 0.2)
+    ),
+    url("../img/wallpaper.jpg");
     border-width: 0px 0px 20px 0px;
     border-bottom-color: #004040;
     border-style: solid;
@@ -219,15 +224,7 @@ section h2 {
     color: #004040;
 }
 
-section#den-stora-dagen {
-    color: #000;
-    border-width: 0px 0px 20px 0px;
-    border-bottom-color: #004040;
-    border-style: solid;
-    background: #FFF url("../img/julita-small.jpg");
-}
-
-section#den-stora-dagen .row {
+.container.right .row {
     background: #FFF;
     border: 10px;
     border-style: solid;
@@ -239,20 +236,12 @@ section#den-stora-dagen .row {
     border-radius: 5px;
 }
 
-section#den-stora-dagen p {
+.container.right p {
     margin-top: 40px;
     text-align: left;
 }
 
-section#hitta-hit {
-    color: #000;
-    border-width: 0px 0px 20px 0px;
-    border-bottom-color: #004040;
-    border-style: solid;
-    background: #FFF url("../img/map.png");
-}
-
-section#hitta-hit .row {
+.container.left .row {
     background: #FFF;
     border: 10px;
     border-style: solid;
@@ -264,9 +253,35 @@ section#hitta-hit .row {
     border-radius: 5px;
 }
 
-section#hitta-hit p {
+.container.left p {
     margin-top: 40px;
     text-align: left;
+}
+
+section#den-stora-dagen {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background: 
+        linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+        ),
+    url("../img/julita-small.jpg");
+}
+
+section#hitta-hit {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background: 
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/map.jpg");
 }
 
 section#festen {
@@ -274,25 +289,53 @@ section#festen {
     border-width: 0px 0px 20px 0px;
     border-bottom-color: #004040;
     border-style: solid;
-    background: #FFF url("../img/party.jpg");
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/party.jpg");
 }
 
-section#festen .row {
-    background: #FFF;
-    border: 10px;
+section#sova-over {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
     border-style: solid;
-    border-color: #004040;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 60%;
-    float: right;
-    border-radius: 5px;
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/moon.jpg");
 }
 
-section#festen p {
-    margin-top: 40px;
-    text-align: left;
+section#svenhippa {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/svenhippa.jpg");
 }
+
+section#osa {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/osa.jpg");
+}
+
 
 section.success {
     color: #fff;
