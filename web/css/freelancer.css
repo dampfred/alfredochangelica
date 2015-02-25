@@ -4,6 +4,35 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -225,7 +254,7 @@ section h2 {
 }
 
 .container.right .row {
-    background: #FFF;
+    background: #fffff9;
     border: 10px;
     border-style: solid;
     border-color: #004040;
@@ -242,7 +271,7 @@ section h2 {
 }
 
 .container.left .row {
-    background: #FFF;
+    background: #fffff9;
     border: 10px;
     border-style: solid;
     border-color: #004040;

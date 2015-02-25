@@ -85,7 +85,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header class="fullscreen background parallax" data-img-width="1083" data-img-height="1083" data-diff="100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -103,7 +103,7 @@
     </header>
 
     <!-- Den stora dagen Section -->
-    <section id="den-stora-dagen">
+    <section id="den-stora-dagen" class="fullscreen background parallax" data-img-width="1534" data-img-height="725" data-diff="50">
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -114,74 +114,11 @@
                 </div>
                 </div>
             </div>
-            <!--<div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-            -->
         </div>
     </section>
 
     <!-- Hitta hit Section -->
-    <section class="success" id="hitta-hit">
+    <section id="hitta-hit" class="fullscreen background parallax" data-img-width="1535" data-img-height="925" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -190,26 +127,11 @@
                     <p>Här är en kort text om hur man hittar hit och en länk till Google maps.</p>
                 </div>
             </div>
-            <!--
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        -->
         </div>
     </section>
 
     <!-- Festen Section -->
-    <section id="festen">
+    <section id="festen" class="fullscreen background parallax" data-img-width="1920" data-img-height="1200" data-diff="100">
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -218,56 +140,11 @@
                     <p>Här är info om middagen och festen och hur man kommer i kontakt med Jonas.</p>
                 </div>
             </div>
-            <!--
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. 
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. 
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        -->
         </div>
     </section>
 
     <!-- Sova över Section -->
-    <section class="success" id="sova-over">
+    <section id="sova-over" class="fullscreen background parallax" data-img-width="1600" data-img-height="1200" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -280,7 +157,7 @@
     </section>
 
     <!-- Svenhippa Section -->
-    <section id="svenhippa">
+    <section id="svenhippa"  class="fullscreen background parallax" data-img-width="1600" data-img-height="800" data-diff="100">
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -293,7 +170,7 @@
     </section>
 
     <!-- Presenter Section -->
-    <section class="success" id="presenter">
+    <section id="presenter" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1064" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -306,7 +183,7 @@
     </section>
 
     <!-- O.S.A. Section -->
-    <section id="osa">
+    <section id="osa" class="fullscreen background parallax" data-img-width="1600" data-img-height="1067" data-diff="100">
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -319,7 +196,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="success" id="faq">
+    <section id="faq" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1064" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -620,11 +497,115 @@
     <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+   <!-- <script src="js/jqBootstrapValidation.js"></script>-->
+    <!--<script src="js/contact_me.js"></script>-->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+
+    <script type="text/javascript">
+
+        /* detect touch */
+        if("ontouchstart" in window){
+            document.documentElement.className = document.documentElement.className + " touch";
+        }
+        if(!$("html").hasClass("touch")){
+            /* background fix */
+            $(".parallax").css("background-attachment", "fixed");
+        }
+
+        /* fix vertical when not overflow
+        call fullscreenFix() if .fullscreen content changes */
+        function fullscreenFix(){
+            var h = $('body').height();
+            // set .fullscreen height
+            $(".content-b").each(function(i){
+                if($(this).innerHeight() <= h){
+                    $(this).closest(".fullscreen").addClass("not-overflow");
+                }
+            });
+        }
+        $(window).resize(fullscreenFix);
+        fullscreenFix();
+
+        /* resize background images */
+        function backgroundResize(){
+            var windowH = $(window).height();
+            $(".background").each(function(i){
+                var path = $(this);
+                // variables
+                var contW = path.width();
+                var contH = path.height();
+                var imgW = path.attr("data-img-width");
+                var imgH = path.attr("data-img-height");
+                var ratio = imgW / imgH;
+                // overflowing difference
+                var diff = parseFloat(path.attr("data-diff"));
+                diff = diff ? diff : 0;
+                // remaining height to have fullscreen image only on parallax
+                var remainingH = 0;
+                if(path.hasClass("parallax") && !$("html").hasClass("touch")){
+                    var maxH = contH > windowH ? contH : windowH;
+                    remainingH = windowH - contH;
+                }
+                // set img values depending on cont
+                imgH = contH + remainingH + diff;
+                imgW = imgH * ratio;
+                // fix when too large
+                if(contW > imgW){
+                    imgW = contW;
+                    imgH = imgW / ratio;
+                }
+                //
+                path.data("resized-imgW", imgW);
+                path.data("resized-imgH", imgH);
+                path.css("background-size", imgW + "px " + imgH + "px");
+            });
+        }
+        $(window).resize(backgroundResize);
+        $(window).focus(backgroundResize);
+        backgroundResize();
+
+        /* set parallax background-position */
+        function parallaxPosition(e){
+            var heightWindow = $(window).height();
+            var topWindow = $(window).scrollTop();
+            var bottomWindow = topWindow + heightWindow;
+            var currentWindow = (topWindow + bottomWindow) / 2;
+            $(".parallax").each(function(i){
+                var path = $(this);
+                var height = path.height();
+                var top = path.offset().top;
+                var bottom = top + height;
+                // only when in range
+                if(bottomWindow > top && topWindow < bottom){
+                    var imgW = path.data("resized-imgW");
+                    var imgH = path.data("resized-imgH");
+                    // min when image touch top of window
+                    var min = 0;
+                    // max when image touch bottom of window
+                    var max = - imgH + heightWindow;
+                    // overflow changes parallax
+                    var overflowH = height < heightWindow ? imgH - height : imgH - heightWindow; // fix height on overflow
+                    top = top - overflowH;
+                    bottom = bottom + overflowH;
+                    // value with linear interpolation
+                    var value = min + (max - min) * (currentWindow - top) / (bottom - top);
+                    // set background-position
+                    var orizontalPosition = path.attr("data-oriz-pos");
+                    orizontalPosition = orizontalPosition ? orizontalPosition : "50%";
+                    $(this).css("background-position", orizontalPosition + " " + value + "px");
+                }
+            });
+        }
+        if(!$("html").hasClass("touch")){
+            $(window).resize(parallaxPosition);
+            //$(window).focus(parallaxPosition);
+            $(window).scroll(parallaxPosition);
+            parallaxPosition();
+        }
+
+    </script>
 
 </body>
 
