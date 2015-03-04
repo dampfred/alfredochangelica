@@ -103,7 +103,7 @@
     </header>
 
     <!-- Den stora dagen Section -->
-    <section id="den-stora-dagen" class="fullscreen background parallax" data-img-width="1534" data-img-height="725" data-diff="50">
+    <section id="den-stora-dagen" class="fullscreen background parallax" data-img-width="1534" data-img-height="725" data-diff="100">
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -170,7 +170,7 @@
     </section>
 
     <!-- Presenter Section -->
-    <section id="presenter" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1064" data-diff="100">
+    <section id="presenter" class="fullscreen success background parallax" data-img-width="1500" data-img-height="1000" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -196,7 +196,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1064" data-diff="100">
+    <section id="faq" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1600" data-diff="100">
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -209,45 +209,12 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        &copy; 2014
+                        <h3>Vi ses!</h3>
+                        &copy; 2015
                     </div>
                 </div>
             </div>
@@ -577,6 +544,7 @@
                 var height = path.height();
                 var top = path.offset().top;
                 var bottom = top + height;
+                var offsetfix = path.attr("data-diff");
                 // only when in range
                 if(bottomWindow > top && topWindow < bottom){
                     var imgW = path.data("resized-imgW");
@@ -590,7 +558,7 @@
                     top = top - overflowH;
                     bottom = bottom + overflowH;
                     // value with linear interpolation
-                    var value = min + (max - min) * (currentWindow - top) / (bottom - top);
+                    var value = min + (max - min) * (currentWindow - top) / (bottom - top)+100;//offsetfix;
                     // set background-position
                     var orizontalPosition = path.attr("data-oriz-pos");
                     orizontalPosition = orizontalPosition ? orizontalPosition : "50%";

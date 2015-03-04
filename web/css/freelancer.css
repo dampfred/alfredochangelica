@@ -4,34 +4,43 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/* fullscreen setup */
-html, body {
-    /* give this to all tags from html to .fullscreen */
-    height:100%;
-}
-.fullscreen,
-.content-a {
-    width:100%;
-    min-height:100%;
-}
-.not-fullscreen,
-.not-fullscreen .content-a,
-.fullscreen.not-overflow,
-.fullscreen.not-overflow .content-a {
-    height:100%;
-    overflow:hidden;
-}
+/* background setup */
+    .background {
+        background-repeat:no-repeat;
+        /* custom background-position */
+        background-position:50% 50%;
+        /* ie8- graceful degradation */
+        background-position:50% 50%9 !important;
+    }
 
-/* content centering styles */
-.content-a {
-    display:table;
-}
-.content-b {
-    display:table-cell;
-    position:relative;
-    vertical-align:middle;
-    text-align:center;
-}
+/* fullscreen setup */
+    html, body {
+        /* give this to all tags from html to .fullscreen */
+        height:100%;
+    }
+    .fullscreen,
+    .content-a {
+        width:100%;
+        min-height:100%;
+    }
+    .not-fullscreen,
+    .not-fullscreen .content-a,
+    .fullscreen.not-overflow,
+    .fullscreen.not-overflow .content-a {
+        height:100%;
+        overflow:hidden;
+    }
+
+    /* content centering styles */
+    .content-a {
+        display:table;
+    }
+    .content-b {
+        display:table-cell;
+        position:relative;
+        vertical-align:middle;
+        text-align:center;
+    }
 
 body {
     overflow-x: hidden;
@@ -115,8 +124,8 @@ header {
     color: #000;
     background: 
     linear-gradient(
-        rgba(217, 255, 243, 0.2), 
-        rgba(217, 255, 243, 0.2)
+        rgba(240, 248, 241, 0.2), 
+        rgba(240, 248, 241, 0.2)
     ),
     url("../img/wallpaper.jpg");
     border-width: 0px 0px 20px 0px;
@@ -186,9 +195,9 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:1250px) {
     .navbar-fixed-top {
-        padding: 30px 0;
+        padding: 30px 0px;
         letter-spacing: 10px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -207,11 +216,94 @@ header .intro-text .skills {
         padding: 10px 0;
     }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-        letter-spacing: 5px;
-    }
+    .navbar .navbar-nav {
+        letter-spacing: 1px;
+        font-size: 0.9em;
+    }   
+    
 }
+
+@media(min-width:993px) and (max-width:1249px) {
+    .navbar-fixed-top {
+        padding: 10px 0px;
+        letter-spacing: 5px;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.5em;
+
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        letter-spacing: 1px;
+        font-size: 0.7em;
+    }      
+}
+
+@media(min-width:769px) and (max-width:992px) {
+    .navbar-fixed-top {
+        padding: 10px 0px;
+        letter-spacing: 5px;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.0em;
+
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        letter-spacing: 1px;
+        font-size: 0.5em;
+    }      
+}
+
+@media(max-width:768px) {
+    .navbar-fixed-top {
+        padding: 10px 0px;
+        letter-spacing: 5px;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.5em;
+
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        letter-spacing: 1px;
+        font-size: 0.9em;
+    }      
+}
+
 
 .navbar {
     text-transform: uppercase;
@@ -221,11 +313,6 @@ header .intro-text .skills {
 
 .navbar a:focus {
     outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-    font-size: 0.9em;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -253,24 +340,51 @@ section h2 {
     color: #004040;
 }
 
-.container.right .row {
+section .container .row {
     background: #fffff9;
     border: 10px;
     border-style: solid;
     border-color: #004040;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 60%;
-    float: right;
     border-radius: 5px;
 }
 
-.container.right p {
+section .container p {
     margin-top: 40px;
     text-align: left;
 }
 
-.container.left .row {
+@media(max-width:768px){
+
+    section .container{
+        width: 95%;
+        max-width: 550px;
+    }
+
+}
+
+@media(min-width:769px){
+
+    section .container{
+        width: 60%;
+        max-width: 700px;
+    }
+
+    section .left{
+        float: left;
+        padding-left: 50px;
+    }
+
+    section .right{
+        float: right;
+        padding-right: 50px;
+    }
+
+}
+
+
+/*.container.left .row {
     background: #fffff9;
     border: 10px;
     border-style: solid;
@@ -280,12 +394,12 @@ section h2 {
     width: 60%;
     float: left;
     border-radius: 5px;
-}
+}*/
 
-.container.left p {
+/*.container.left p {
     margin-top: 40px;
     text-align: left;
-}
+}*/
 
 section#den-stora-dagen {
     color: #000;
@@ -352,6 +466,19 @@ section#svenhippa {
     url("../img/svenhippa.jpg");
 }
 
+section#presenter {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/gifts.png");
+}
+
 section#osa {
     color: #000;
     border-width: 0px 0px 20px 0px;
@@ -363,6 +490,19 @@ section#osa {
         rgba(240, 248, 241, 0.4)
     ),
     url("../img/osa.jpg");
+}
+
+section#faq {
+    color: #000;
+    border-width: 0px 0px 20px 0px;
+    border-bottom-color: #004040;
+    border-style: solid;
+    background:
+    linear-gradient(
+        rgba(240, 248, 241, 0.4), 
+        rgba(240, 248, 241, 0.4)
+    ),
+    url("../img/wallpaper.jpg");
 }
 
 
@@ -534,7 +674,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #004040;
 }
 
 .btn-social {
