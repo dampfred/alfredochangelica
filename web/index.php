@@ -507,7 +507,7 @@
                 var path = $(this);
                 // variables
                 var contW = path.width();
-                var contH = path.height();
+                var contH = path.height()+150;
                 var imgW = path.attr("data-img-width");
                 var imgH = path.attr("data-img-height");
                 var ratio = imgW / imgH;
@@ -522,7 +522,7 @@
                 }
                 //
 
-                alert(imgH+" : "+this);
+                //alert(imgH+" : "+this);
                 path.data("resized-imgW", imgW);
                 path.data("resized-imgH", imgH);
                 path.css("background-size", imgW + "px " + imgH + "px");
