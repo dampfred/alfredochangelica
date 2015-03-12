@@ -507,7 +507,7 @@
                 var path = $(this);
                 // variables
                 var contW = path.width();
-                var contH = path.height()+150;
+                var contH = path.height()+155;
                 var imgW = path.attr("data-img-width");
                 var imgH = path.attr("data-img-height");
                 var ratio = imgW / imgH;
