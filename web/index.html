@@ -521,6 +521,8 @@
                     imgH = imgW / ratio;
                 }
                 //
+
+                alert(imgH+" : "+this);
                 path.data("resized-imgW", imgW);
                 path.data("resized-imgH", imgH);
                 path.css("background-size", imgW + "px " + imgH + "px");
