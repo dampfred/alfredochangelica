@@ -530,8 +530,7 @@
 
         /* detect touch */
         if("ontouchstart" in window){
-            document.documentElement.className = document.documentElement.className + " touch";
-            backgroundResizeTouch();
+            document.documentElement.className = document.documentElement.className + " touch";            
         }
         if(!$("html").hasClass("touch")){
             /* background fix */
@@ -587,9 +586,16 @@
             });
         }
 
-        $(window).resize(backgroundResize);
-        $(window).focus(backgroundResize);
-        backgroundResize();
+        if(!$("html").hasClass("touch")){
+            $(window).resize(backgroundResize);
+            $(window).focus(backgroundResize);
+            backgroundResize();
+        }else{
+            $(window).resize(backgroundResizeTouch);
+            $(window).focus(backgroundResizeTouch);
+            backgroundResizeTouch();
+        }
+        
 
         /* set parallax background-position */
         function parallaxPosition(e){
