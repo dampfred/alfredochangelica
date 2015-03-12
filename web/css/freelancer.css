@@ -149,7 +149,7 @@ header .intro-text {
     border: 10px;
     border-style: solid;
     padding-top: 100px;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
     border-radius: 10px;
 }
 
@@ -163,18 +163,17 @@ header .intro-text .name {
     letter-spacing: 30px;
 }
 
-header .intro-text .name .and {
-    font-size: 0.5em;
-}
-
 header .intro-text .skills {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 300;
     padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
 }
 
 @media(min-width:768px) {
+    
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
@@ -182,16 +181,31 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 3em;
+        letter-spacing: 30px;
     }
 
-    header .intro-text .name .and {
-        font-size: 0.5em;
-    }
 
     header .intro-text .skills {
         font-size: 2em;
         letter-spacing: 30px;
-        text-transform: uppercase;
+    }
+}
+
+@media(max-width:490px) {
+
+    header .intro-text .name {
+        font-size: 1.5em;
+        letter-spacing: 20px;
+    }
+
+    header .intro-text .skills {
+        font-size: 1em;
+        letter-spacing: 10px;
+    }
+
+    header .intro-text {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 }
 
@@ -279,7 +293,7 @@ header .intro-text .skills {
 
 @media(max-width:768px) {
     .navbar-fixed-top {
-        padding: 10px 0px;
+        padding: 10px 0;
         letter-spacing: 5px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -295,7 +309,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0 0;
     }
 
     .navbar .navbar-nav {
@@ -335,7 +349,7 @@ section h2 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     letter-spacing: 15px;
     color: #004040;
 }
@@ -351,9 +365,31 @@ section .container .row {
 }
 
 section .container p {
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: left;
 }
+
+section .container .extra_space {
+    margin-top: 30px;
+}
+
+section .container ul {
+    margin-top: 22px;
+}
+
+section .container li {
+    text-align: left;
+    font-size: 20px;
+}
+
+section .container .question {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+section .container .answer {
+}
+
 
 @media(max-width:768px){
 
@@ -382,24 +418,6 @@ section .container p {
     }
 
 }
-
-
-/*.container.left .row {
-    background: #fffff9;
-    border: 10px;
-    border-style: solid;
-    border-color: #004040;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 60%;
-    float: left;
-    border-radius: 5px;
-}*/
-
-/*.container.left p {
-    margin-top: 40px;
-    text-align: left;
-}*/
 
 section#den-stora-dagen {
     color: #000;
@@ -522,6 +540,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+.clear_div{
+    clear: both;
 }
 
 #portfolio .portfolio-item {
@@ -698,7 +720,7 @@ footer .footer-below {
     z-index: 1049;
     position: fixed;
     right: 2%;
-    bottom: 2%;
+    bottom: 3.5%;
     width: 50px;
     height: 50px;
 }
@@ -708,7 +730,9 @@ footer .footer-below {
     height: 50px;
     border-radius: 100%;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 24px;
+    background-color: #004040;
+    border-color: #004040;
 }
 
 .scroll-top .btn:focus {
