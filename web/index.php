@@ -205,7 +205,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>Presenter</h2>
                     <hr class="star-primary">
-                    <p>Om du har en present som du gärna vill ge oss blir vi naturligtvis mycket glada. Om du däremot tycker att det är svårt att komma på något kan vi rekommendera att lämna ett bidrag till bröllopsresan eller ett angeläget välgörande ändamål.</p>
+                    <p>Om du har en present som du gärna vill ge oss blir vi naturligtvis mycket glada. Om du däremot tycker att det är svårt att komma på något kan vi rekommendera att lämna ett bidrag till ett angeläget välgörande ändamål.</p>
                     <p>Vi är inte förtjusta i kristallvaser eller graverade champagneglas. Vi älskar mänskliga rättigheter och samlar gärna C02-utsläppsrätter på hög.</p>
                 </div>
             </div>
