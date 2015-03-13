@@ -252,7 +252,7 @@
                                                     <span class="ss-choice-item-control goog-inline-block">
                                                         <input type="radio" name="entry.1295750879" value="Nej tyv&auml;rr" id="group_1295750879_3" role="radio" class="ss-q-radio" aria-label="Nej tyv&auml;rr" required="" aria-required="true">
                                                     </span>
-                                                    <span class="ss-choice-label">&nbsp;Nej tyvärr</span>
+                                                    <span class="ss-choice-label">&nbsp;Nej tyvärr, vi kan inte komma</span>
                                                 </label>
                                             </li>
                                         </ul>
