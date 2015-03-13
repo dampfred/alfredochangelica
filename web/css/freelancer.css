@@ -244,6 +244,15 @@ header .couple {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    header .couple {
+        float: right;
+        background-image: url("../img/couple-small.png");
+        width: 47px;
+        height: 100px;
+        margin-right: 3%;
+        margin-top:-40px;
+    }
 }
 
 @media(min-width:1250px) {
@@ -608,6 +617,12 @@ section#osa ul{
 
 section#osa li{
     font-size: 1.2em;
+}
+
+@media(max-width:768px) {
+    section#osa li{
+        margin: 0px;
+    }
 }
 
 section#osa label{
