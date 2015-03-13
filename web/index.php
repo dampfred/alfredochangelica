@@ -265,10 +265,7 @@
                                 <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                                     <div class="ss-form-entry">
                                         <label class="ss-q-item-label" for="entry_1935512179">
-                                            <div class="ss-q-title">Jag/vi som osar heter
-                                                <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-                                                <span class="ss-required-asterisk" aria-hidden="true">*</span>
-                                            </div>
+                                            <div class="ss-q-title">Jag/vi som osar heter</div>
                                             <div class="ss-q-help ss-secondary-text" dir="ltr">Fyll i förnamn och efternamn på dig/er</div>
                                         </label>
                                         <div class="clear_div"></div>
