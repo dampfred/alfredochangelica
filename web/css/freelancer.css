@@ -222,6 +222,7 @@ header .couple {
     header .couple {
         float: right;
         background-image: url("../img/couple-large.png");
+        background-size: 47px 100px;
         width: 47px;
         height: 100px;
         margin-right: 3%;
