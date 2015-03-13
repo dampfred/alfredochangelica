@@ -211,6 +211,7 @@ header .couple {
     header .intro-text .skills {
         font-size: 1em;
         letter-spacing: 10px;
+        padding-top: 20px;
     }
 
     header .intro-text {
@@ -238,21 +239,14 @@ header .couple {
     header .intro-text .skills {
         font-size: 0.9em;
         letter-spacing: 8px;
+        padding-top: 15px;
     }
 
     header .intro-text {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
-    header .couple {
-        float: right;
-        background-image: url("../img/couple-small.png");
-        width: 47px;
-        height: 100px;
-        margin-right: 3%;
-        margin-top:-40px;
-    }
 }
 
 @media(min-width:1250px) {
