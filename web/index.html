@@ -236,7 +236,7 @@
                                                     <span class="ss-choice-item-control goog-inline-block">
                                                         <input type="radio" name="entry.1295750879" value="Ja, tack! Vi kommer g&auml;rna och stannar &ouml;ver natten" id="group_1295750879_1" role="radio" class="ss-q-radio" aria-label="Ja, tack! Vi kommer g&auml;rna och stannar &ouml;ver natten" required="" aria-required="true">
                                                     </span>
-                                                    <span class="ss-choice-label">&nbsp;Ja, tack! Vi kommer gärna och stannar över natten</span>
+                                                    <span class="ss-choice-label">&nbsp;Ja, tack! Jag/vi kommer gärna och stannar över natten</span>
                                                 </label>
                                             </li>
                                             <li class="ss-choice-item">
@@ -244,7 +244,7 @@
                                                     <span class="ss-choice-item-control goog-inline-block">
                                                         <input type="radio" name="entry.1295750879" value="Ja tack! Vi kommer g&auml;rna, men &aring;ker hem p&aring; kv&auml;llen" id="group_1295750879_2" role="radio" class="ss-q-radio" aria-label="Ja tack! Vi kommer g&auml;rna, men &aring;ker hem p&aring; kv&auml;llen" required="" aria-required="true">
                                                     </span>
-                                                    <span class="ss-choice-label">&nbsp;Ja tack! Vi kommer gärna, men åker hem på kvällen</span>
+                                                    <span class="ss-choice-label">&nbsp;Ja tack! Jag/vi kommer gärna, men åker hem på kvällen</span>
                                                 </label>
                                             </li>
                                             <li class="ss-choice-item">
@@ -252,7 +252,7 @@
                                                     <span class="ss-choice-item-control goog-inline-block">
                                                         <input type="radio" name="entry.1295750879" value="Nej tyv&auml;rr" id="group_1295750879_3" role="radio" class="ss-q-radio" aria-label="Nej tyv&auml;rr" required="" aria-required="true">
                                                     </span>
-                                                    <span class="ss-choice-label">&nbsp;Nej tyvärr, vi kan inte komma</span>
+                                                    <span class="ss-choice-label">&nbsp;Nej tyvärr, jag/vi kan inte komma</span>
                                                 </label>
                                             </li>
                                         </ul>
@@ -265,7 +265,7 @@
                                 <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                                     <div class="ss-form-entry">
                                         <label class="ss-q-item-label" for="entry_1935512179">
-                                            <div class="ss-q-title">Vi som osar heter
+                                            <div class="ss-q-title">Jag/vi som osar heter
                                                 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
                                                 <span class="ss-required-asterisk" aria-hidden="true">*</span>
                                             </div>
