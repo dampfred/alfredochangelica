@@ -57,13 +57,13 @@
                         <a href="#den-stora-dagen">Den stora dagen</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#hitta-hit">Hitta hit</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#festen">Festen</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#sova-over">Sova över</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#hitta-hit">Hitta hit</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#svenhippa">Svenhippa</a>
@@ -96,6 +96,7 @@
                         <span class="name">&nbsp;Angelica</span>
                         <hr class="star-primary">
                         <span class="skills">&nbsp;18 juli 2015</span>
+                        <div class="couple">&nbsp;</div>
                     </div>
                 </div>
             </div>
@@ -123,6 +124,43 @@
         </div>
     </section>
 
+    <!-- Festen Section -->
+    <section id="festen" class="fullscreen background parallax" data-img-width="1920" data-img-height="1200" data-diff="100">
+        <div class="container left">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Festen</h2>
+                    <hr class="star-primary">
+                    <p>På kvällen vankas det härlig bröllopsmiddag på Julita Wärdshus. Under middagen kommer kvällens toastmaster, Jonas Frid, sköta underhållningen och fördela ordet mellan dem som vill säga något.</p>
+                    <p>Efter att vi brutit taffeln flyttar vi oss cirka 50 meter över till Bäckstugan där det blir fest och dans. Här ordnar vi även en scen, så om man hellre vill uppträda än hålla tal finns goda möjligheter här. Förankra dina idéer med Jonas så kan nog det mesta ordnas.</p>
+                    <p>Kvällens meny kommer företrädesvis att vara vegetarisk. Om du har speciella önskemål på grund av allergier eller känner att du måste äta kött, meddela gärna det när du osar nedan.</p>
+                    <ul>
+                        <li>Jonas nås bäst på <a href="mailto:jonas.b.frid@gmail.com">jonas.b.frid@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sova över Section -->
+    <section id="sova-over" class="fullscreen background parallax" data-img-width="1600" data-img-height="1200" data-diff="100">
+        <div class="container right">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sova över</h2>
+                    <hr class="star-primary">
+                    <p>På Julita gård finns även ett vandrarhem som drivs av STF. Tyvärr räcker dock inte bäddarna riktigt till alla, så bortsett från den närmaste familjen och de som hjälper till med arrangemangen får vi söka sovplatser på annat håll.</p>
+                    <p>Cirka 20 minuters bilresa bort ligger Hjälmaregården som erbjuder allt från sovplatser i stuga och vandrarhem, till tältplats för den som föredrar det. Vi arrangerar abonnerade bussar både till och från Julita gård från Hjälmaregården så att den som övernattar där kan parkera bilen och slippa köra.</p>
+                    <p>Bussar kommer avgå till Julita gård i lämplig tid innan vigseln och tillbaka igen på kvällen. En lite tidigare avgång för den som känner sig sömnig och en lite senare avgång för den som vill dansa natten lång.</p>
+                    <ul>
+                        <li><a href="http://www.nordiskamuseet.se/slott-gardar/julita-gard/ata-bo/bo-pa-julita-gard" target="_blank">Info om Julita gårds vandrarhem</a></li>
+                        <li><a href="http://www.hjalmargarden.se/" target="_blank">Hjälmaregårdens hemsida</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Hitta hit Section -->
     <section id="hitta-hit" class="fullscreen background parallax" data-img-width="1535" data-img-height="925" data-diff="100">
         <div class="container left">
@@ -131,42 +169,12 @@
                     <h2>Hitta hit</h2>
                     <hr class="star-primary">
                     <p>Julita gård ligger vackert beläget vid sjön Öljaren mellan Eskilstuna och Katrineholm. Hit tar man sig enklast med <a href="http://www.print4web.fskab.se/ltt/Landsortstrafik/141214_151212/Landsortstrafik_Vingakerkommun_405_141214_151212.pdf" target="_blank">buss 405 från Katrineholm</a> eller med egen bil.</p>
-                    <p>För den som kommer med bil och övernattar på Hjälmaregården rekommenderar vi att parkera vid campingen och åka med våra abonnerade bussar till/från Julita gård.</p>
+                    <p>För den som kommer med bil och övernattar på <a href="http://www.hjalmargarden.se/" target="_blank">Hjälmaregården</a> rekommenderar vi att parkera vid campingen och åka med våra abonnerade bussar till/från Julita gård.</p>
                     <p>Det tar cirka <a href="https://goo.gl/maps/DYr3d" target="_blank">2 timmar att köra till Julita gård från Stockholm</a> och ungefär <a href="https://goo.gl/maps/Xyq2t" target="_blank">50 minuter från Fellingsbro</a>.</p>
                     <ul>
                         <li><a href="https://goo.gl/maps/waAV0" target="_blank">Karta till Julita gård</a></li>
                         <li><a href="https://goo.gl/maps/6yQpz" target="_blank">Karta till Hjälmaregården</a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Festen Section -->
-    <section id="festen" class="fullscreen background parallax" data-img-width="1920" data-img-height="1200" data-diff="100">
-        <div class="container right">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Festen</h2>
-                    <hr class="star-primary">
-                    <p>På kvällen vankas det härlig bröllopsmiddag på Julita Wärdshus. Under middagen kommer kvällens toastmaster, Jonas Frid, sköta underhållningen och fördela ordet mellan dem som vill säga något.</p>
-                    <p>Efter att vi brutit taffeln flyttar vi oss cirka 50 meter över till Bäckstugan där det blir fest och dans. Här ordnar vi även en scen, så om man hellre vill uppträda än hålla tal finns goda möjligheter här. Förankra dina idéer med Jonas så kan nog det mesta ordnas.</p>
-                    <p>Kvällens meny kommer företrädesvis att vara vegetarisk. Om du har speciella önskemål på grund av allergier eller känner att du måste äta kött, meddela gärna det när du osar nedan.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sova över Section -->
-    <section id="sova-over" class="fullscreen background parallax" data-img-width="1600" data-img-height="1200" data-diff="100">
-        <div class="container left">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Sova över</h2>
-                    <hr class="star-primary">
-                    <p>På Julita gård finns även ett vandrarhem som drivs av STF. Tyvärr räcker dock inte bäddarna riktigt till alla, så bortsett från den närmaste familjen och de som hjälper till med arrangemangen får vi söka sovplatser på annat håll.</p>
-                    <p>Cirka 20 minuters bilresa bort ligger Hjälmaregården som erbjuder allt från sovplatser i stuga och vandrarhem, till tältplats för den som föredrar det. Vi arrangerar abonnerade bussar både till och från Julita gård från Hjälmaregården så att den som övernattar där kan parkera bilen och slippa köra.</p>
-                    <p>Bussar kommer avgå till Julita gård i lämplig tid innan vigseln och tillbaka igen på kvällen. En lite tidigare avgång för den som känner sig sömnig och en lite senare avgång för den som vill dansa natten lång.</p>
                 </div>
             </div>
         </div>
@@ -180,7 +188,11 @@
                     <h2>Svenhippor</h2>
                     <hr class="star-primary">
                     <p>Av naturliga skäl finns här inte så mycket information att delge. Men både vad gäller svensexa och möhippa så är alla som känner sig intresserade av att vara med välkomna &ndash; oavsett kön.</p>
-                    <p>Ta kontakt med Karin Ringaby om du vill vara med och fira Angelica eller Xxx Xxx om du vill fira Alfred.</p>
+                    <p>Ta kontakt med Karin Ringaby om du vill vara med och fira Angelica eller Tina Sundelin om du vill fira Alfred.</p>
+                    <ul>
+                        <li>Karin nås bäst på <a href="mailto:karin.ringaby@gmail.com">karin.ringaby@gmail.com</a></li>
+                        <li>Tina nås bäst på <a href="mailto:tinasundelin@yahoo.se">tinasundelin@yahoo.se</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -207,10 +219,99 @@
                 <div class="col-lg-12 text-center">
                     <h2>O.S.A.</h2>
                     <hr class="star-primary">
-                    <p>Här kan du snart osa och vi är mycket tacksamma om du gör så senast 18 april.</p>
+                    <p>Fyll i formuläret för att osa. Vi behöver ditt svar senast 18 april.</p>
+                    <script type="text/javascript">
+                        var submitted=false;</script>
+                        <iframe name="hidden_iframe" id="hidden_iframe"
+                        style="display:none;" onload="if(submitted)
+                        {window.location='http://www.alfredochangelica.se/confirmed.php';}"></iframe>
+                    <form action="https://docs.google.com/forms/d/1bjzmIAUFIOgR3o8J3hK9fYlmtseTctDtfJH7XBmgb9Y/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <ol role="list" class="ss-question-list" style="padding-left: 0">
+                            <div class="ss-form-question errorbox-good" role="listitem">
+                                <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                    <div class="ss-form-entry">
+                                        <ul class="ss-choices" role="radiogroup" aria-label="Ses vi den 18/7?  ">
+                                            <li class="ss-choice-item">
+                                                <label>
+                                                    <span class="ss-choice-item-control goog-inline-block">
+                                                        <input type="radio" name="entry.1295750879" value="Ja, tack! Vi kommer g&auml;rna och stannar &ouml;ver natten" id="group_1295750879_1" role="radio" class="ss-q-radio" aria-label="Ja, tack! Vi kommer g&auml;rna och stannar &ouml;ver natten" required="" aria-required="true">
+                                                    </span>
+                                                    <span class="ss-choice-label">&nbsp;Ja, tack! Vi kommer gärna och stannar över natten</span>
+                                                </label>
+                                            </li>
+                                            <li class="ss-choice-item">
+                                                <label>
+                                                    <span class="ss-choice-item-control goog-inline-block">
+                                                        <input type="radio" name="entry.1295750879" value="Ja tack! Vi kommer g&auml;rna, men &aring;ker hem p&aring; kv&auml;llen" id="group_1295750879_2" role="radio" class="ss-q-radio" aria-label="Ja tack! Vi kommer g&auml;rna, men &aring;ker hem p&aring; kv&auml;llen" required="" aria-required="true">
+                                                    </span>
+                                                    <span class="ss-choice-label">&nbsp;Ja tack! Vi kommer gärna, men åker hem på kvällen</span>
+                                                </label>
+                                            </li>
+                                            <li class="ss-choice-item">
+                                                <label>
+                                                    <span class="ss-choice-item-control goog-inline-block">
+                                                        <input type="radio" name="entry.1295750879" value="Nej tyv&auml;rr" id="group_1295750879_3" role="radio" class="ss-q-radio" aria-label="Nej tyv&auml;rr" required="" aria-required="true">
+                                                    </span>
+                                                    <span class="ss-choice-label">&nbsp;Nej tyvärr</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        <div class="error-message" id="1829103276_errorMessage"></div>
+                                        <!--<div class="required-message">This is a required question</div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ss-form-question errorbox-good" role="listitem">
+                                <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1935512179">
+                                            <div class="ss-q-title">Vi som osar heter
+                                                <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                <span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                            </div>
+                                            <div class="ss-q-help ss-secondary-text" dir="ltr">Fyll i förnamn och efternamn på dig/er</div>
+                                        </label>
+                                        <div class="clear_div"></div>
+                                        <textarea name="entry.1935512179" rows="8" cols="0" class="ss-q-long" id="entry_1935512179" dir="auto" aria-label="Vi som kommer heter Fyll i förnamn och efternamn på dig/er " aria-required="true" required=""></textarea>
+                                        <div class="error-message" id="941290741_errorMessage"></div>
+                                        <!--<div class="required-message">This is a required question</div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ss-form-question errorbox-good" role="listitem">
+                                <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_788069700">
+                                            <div class="ss-q-title">Vi äter inte/äter bara/är allergiska mot</div>
+                                            <div class="ss-q-help ss-secondary-text" dir="ltr">Fyll i allt kocken kan behöva känna till</div>
+                                        </label>
+                                        <div class="clear_div"></div>
+                                        <textarea name="entry.788069700" rows="8" cols="0" class="ss-q-long" id="entry_788069700" dir="auto" aria-label="Vi äter inte/äter bara/är allergiska mot Fyll i allt kocken kan behöva känna till "></textarea>
+                                        <div class="error-message" id="1435520346_errorMessage"></div>
+                                        <!--<div class="required-message">This is a required question</div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="draftResponse" value="[,,&quot;-6627133053394602866&quot;]">
+                            <input type="hidden" name="pageHistory" value="0">
+                            <input type="hidden" name="fbzx" value="-6627133053394602866">
+                            <div class="ss-item ss-navigate">
+                                <table id="navigation-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                                                <input type="submit" name="submit" value="Skicka" id="ss-submit" class="jfk-button jfk-button-action ">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </ol>
+                    </form>
                 </div>
             </div>
         </div>
+        <div class="clear_div"></div>
     </section>
 
     <!-- FAQ Section -->
@@ -254,230 +355,6 @@
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- jQuery -->
