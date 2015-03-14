@@ -116,7 +116,7 @@
                         <ul>
                             <li>15:00&nbsp;&nbsp;&nbsp;Vigsel i <a href="http://www.nordiskamuseet.se/slott-gardar/julita-gard/hem/byggnader/skansenmuseet-och-kyrkan" target="_blank">Skansenkyrkan på Julita gård</a></li>
                             <li>18:00&nbsp;&nbsp;&nbsp;Bröllopsmiddag på <a href="http://www.julitawardshus.se/" target="_blank">Julita Wärdshus</a></li>
-                            <li>21:00&nbsp;&nbsp;&nbsp;Fest och glam i Bäckstugan hela natten lång</li>
+                            <li>22:00&nbsp;&nbsp;&nbsp;Fest och glam i Bäckstugan hela natten lång</li>
                         </ul>
                 </div>
                 </div>
