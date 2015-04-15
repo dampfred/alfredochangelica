@@ -150,11 +150,11 @@
                     <h2>Sova över</h2>
                     <hr class="star-primary">
                     <p>På Julita gård finns även ett vandrarhem som drivs av STF. Tyvärr räcker dock inte bäddarna riktigt till alla, så bortsett från den närmaste familjen och de som hjälper till med arrangemangen får vi söka sovplatser på annat håll.</p>
-                    <p>Cirka 20 minuters bilresa bort ligger Hjälmaregården som erbjuder allt från sovplatser i stuga och vandrarhem, till tältplats för den som föredrar det. Vi arrangerar abonnerade bussar både till och från Julita gård från Hjälmaregården så att den som övernattar där kan parkera bilen och slippa köra.</p>
+                    <p>Cirka 20 minuters bilresa bort ligger Båsenberga Hotell & Konferens där vi har reserverat sängplatser till dem som inte får plats på Julita gård. Vi arrangerar abonnerade bussar både till och från Julita gård från Båsenberga så att den som övernattar där kan parkera bilen och slippa köra.</p>
                     <p>Bussar kommer avgå till Julita gård i lämplig tid innan vigseln och tillbaka igen på kvällen. En lite tidigare avgång för den som känner sig sömnig och en lite senare avgång för den som vill dansa natten lång.</p>
                     <ul>
                         <li><a href="http://www.nordiskamuseet.se/slott-gardar/julita-gard/ata-bo/bo-pa-julita-gard" target="_blank">Info om Julita gårds vandrarhem</a></li>
-                        <li><a href="http://www.hjalmargarden.se/" target="_blank">Hjälmaregårdens hemsida</a></li>
+                        <li><a href="http://basenberga.se/" target="_blank">Båsenbergas hemsida</a></li>
                     </ul>
                 </div>
             </div>
@@ -169,11 +169,11 @@
                     <h2>Hitta hit</h2>
                     <hr class="star-primary">
                     <p>Julita gård ligger vackert beläget vid sjön Öljaren mellan Eskilstuna och Katrineholm. Hit tar man sig enklast med <a href="http://www.print4web.fskab.se/ltt/Landsortstrafik/141214_151212/Landsortstrafik_Vingakerkommun_405_141214_151212.pdf" target="_blank">buss 405 från Katrineholm</a> eller med egen bil.</p>
-                    <p>För den som kommer med bil och övernattar på <a href="http://www.hjalmargarden.se/" target="_blank">Hjälmaregården</a> rekommenderar vi att parkera vid campingen och åka med våra abonnerade bussar till/från Julita gård.</p>
+                    <p>För den som kommer med bil och övernattar på <a href="http://basenberga.se/" target="_blank">Båsenberga</a> rekommenderar vi att parkera vid hotellet och åka med våra abonnerade bussar till/från Julita gård.</p>
                     <p>Det tar cirka <a href="https://goo.gl/maps/DYr3d" target="_blank">2 timmar att köra till Julita gård från Stockholm</a> och ungefär <a href="https://goo.gl/maps/Xyq2t" target="_blank">50 minuter från Fellingsbro</a>.</p>
                     <ul>
                         <li><a href="https://goo.gl/maps/waAV0" target="_blank">Karta till Julita gård</a></li>
-                        <li><a href="https://goo.gl/maps/6yQpz" target="_blank">Karta till Hjälmaregården</a></li>
+                        <li><a href="https://goo.gl/maps/s1BVZ" target="_blank">Karta till Båsenberga</a></li>
                     </ul>
                 </div>
             </div>
@@ -320,7 +320,9 @@
                     <hr class="star-primary">
                     <p>Här försöker vi svara på alla frågor som dyker upp. Hör av dig om det är något som är oklart!</p>
                     <p class="question">Måste jag boka boende på egen hand?</p>
-                    <p class="answer">Om du erbjudits plats på vandrarhemmet på Julita gård behöver du inte göra någon egen bokning, vi ordnar detta som en del av bröllopsarrangemangen. Om du däremot planerar att övernatta på Hjälmaregården behöver du boka boende på egen hand. Vi ordnar bara med bussresa till/från Julita gård.</p>
+                    <p class="answer">Nej, vi tar hand om bokning med både Julita gård och Båsenberga Hotell & Konferens. Meddela oss när du OSA:r om du planerar att övernatta eller åka hem på kvällen. Vi bekräftar till dig att det finns en reserverad sängplats i god tid innan bröllopet</p>
+                    <p class="question">Jag har redan reserverat plats på Hjälmaregårdens camping eftersom det stod här att jag skulle det. Vad ska jag göra nu?</p>
+                    <p class="answer">Vi hade från början planerat att husera alla gäster som inte kunde övernatt på Julita gård på Hjälmaregårdens camping. Men tyvärr blev Hjälmaregården fullbokad vilket har lett till att vi fått ändra våra planer. Båsenberga håller normalt sommarstängt, men kommer att hålla extra öppet för vår skull, det innebär dock att vi måste styra alla våra gäster dit. Vi kommer att hjälpa alla att boka om till Båsenberga genom oss. Tag gärna kontakt om vi missat dig.</p>
                     <p class="question">Om man ska åka buss måste man åka från Katrineholm redan kl 9 på morgonen, finns det inga andra alternativ för den som saknar bil?</p>
                     <p class="answer">Tyvärr är tidtabellen väldigt gles på lördagar. Det går även att åka buss från Eskilstuna, men då väntar cirka en kilometers promenad. Hör av dig till oss om detta blir ett problem så kan vi försöka underlätta samåkning.</p>
                     <p class="question">Får jag ta med mig barnen?</p>
