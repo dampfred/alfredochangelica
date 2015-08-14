@@ -85,7 +85,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="fullscreen background parallax" data-img-width="1083" data-img-height="1083" data-diff="100" data-greta=”img/wallpaper.jpg”>
+    <header class="fullscreen background parallax" data-img-width="1083" data-img-height="1083" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/wallpaper.jpg”>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -104,7 +104,7 @@
     </header>
 
     <!-- Den stora dagen Section -->
-    <section id="den-stora-dagen" class="fullscreen background parallax" data-img-width="1534" data-img-height="725" data-diff="100" data-greta=”img/julita-small.jpg”>
+    <section id="den-stora-dagen" class="fullscreen background parallax" data-img-width="1534" data-img-height="725" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/julita-small.jpg”>
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -125,7 +125,7 @@
     </section>
 
     <!-- Festen Section -->
-    <section id="festen" class="fullscreen background parallax" data-img-width="1920" data-img-height="1200" data-diff="100" data-greta=”img/party.jpg”>
+    <section id="festen" class="fullscreen background parallax" data-img-width="1920" data-img-height="1200" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/party.jpg”>
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -143,7 +143,7 @@
     </section>
 
     <!-- Sova över Section -->
-    <section id="sova-over" class="fullscreen background parallax" data-img-width="1600" data-img-height="1200" data-diff="100" data-greta=”img/moon.jpg”>
+    <section id="sova-over" class="fullscreen background parallax" data-img-width="1600" data-img-height="1200" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/moon.jpg”>
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -162,7 +162,7 @@
     </section>
 
     <!-- Hitta hit Section -->
-    <section id="hitta-hit" class="fullscreen background parallax" data-img-width="1535" data-img-height="925" data-diff="100" data-greta=”img/map.jpg”>
+    <section id="hitta-hit" class="fullscreen background parallax" data-img-width="1535" data-img-height="925" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/map.jpg”>
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -181,7 +181,7 @@
     </section>
 
     <!-- Svenhippa Section -->
-    <section id="svenhippa"  class="fullscreen background parallax" data-img-width="1600" data-img-height="800" data-diff="100" data-greta=”img/svenhippa.jpg”>
+    <section id="svenhippa"  class="fullscreen background parallax" data-img-width="1600" data-img-height="800" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/svenhippa.jpg”>
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -199,7 +199,7 @@
     </section>
 
     <!-- Presenter Section -->
-    <section id="presenter" class="fullscreen success background parallax" data-img-width="1500" data-img-height="1000" data-diff="100" data-greta=”img/gifts.png”>
+    <section id="presenter" class="fullscreen success background parallax" data-img-width="1500" data-img-height="1000" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/gifts.png”>
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -213,7 +213,7 @@
     </section>
 
     <!-- O.S.A. Section -->
-    <section id="osa" class="fullscreen background parallax" data-img-width="1600" data-img-height="1067" data-diff="100" data-greta=”img/osa.jpg”>
+    <section id="osa" class="fullscreen background parallax" data-img-width="1600" data-img-height="1067" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/osa.jpg”>
         <div class="container right">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -312,7 +312,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1600" data-diff="100" data-greta=”img/wallpaper.jpg”>
+    <section id="faq" class="fullscreen success background parallax" data-img-width="1600" data-img-height="1600" data-diff="100" data-greta=”http://www.alfredochangelica.se/img/wallpaper.jpg”>
         <div class="container left">
             <div class="row">
                 <div class="col-lg-12 text-center">
