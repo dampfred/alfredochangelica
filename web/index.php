@@ -527,6 +527,13 @@
 
     </script>
 
+    <script type="text/javascript">
+    /* * * THIS IS USED TO MAKE SURE YOU ALWAYS FALLBACK WHATEVER HAPPENS TO US * * */
+    setTimeout(function(){if(!window.greta)for(var a=document.getElementsByTagName("*"),b=0;b<a.length;b++){var d=a[0].tagName;if("div"===d){var c=a[b].getAttribute("data-greta");c&&(a[b].style.backgroundImage="url("+c+")")}("img"===d||"script"===d)&&(c=a[b].getAttribute("data-greta"))&&(a[b].src=c)}},5E3);
+    </script>
+    <!-- DONT EDIT THIS LINE -->
+    <script type="text/javascript" id="gretaScript" src="https://cdn.greta.io/greta.min.js" data-ac="e6c92e65110dde940d13703b6af9f05a"></script>
+
 </body>
 
 </html>
